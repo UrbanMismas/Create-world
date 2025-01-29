@@ -1,6 +1,6 @@
 local screen = peripheral.find("monitor")
-local storage = peripheral.wrap("right") --.find("sophisticatedstorage:storage_io")
-local output = peripheral.wrap("left")
+local storage = peripheral.wrap("back") --.find("sophisticatedstorage:storage_io")
+local output = peripheral.wrap("top")
 local timerDelay = 2
 os.startTimer(timerDelay)
 local scroll = 1
