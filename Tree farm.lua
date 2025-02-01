@@ -20,5 +20,5 @@ while true do
         screen.clearLine()
         screen.write(line)
     end
-    
+    os.sleep(1)
 end
