@@ -13,7 +13,12 @@ else
     height = height1
 end
 
-for i = 1, height do
-    local line = link.getLine(i)
-    screen.write(line)
+while true do
+    for i = 1, height do
+        local line = link.getLine(i)
+        screen.setCursorPos(1, i)
+        screen.clearLine()
+        screen.write(line)
+    end
+    
 end
